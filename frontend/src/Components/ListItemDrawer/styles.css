@@ -1,0 +1,80 @@
+  .rowRadio {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.editLabel {
+  margin-left: 4px;
+  color: #1c5408;
+  font-size: 10px;
+  margin-bottom: 0px;
+}
+
+.editTightLabel {
+  position: relative;
+  top: 3px;
+}
+
+.editRadio {
+  margin-top: 8px;
+  margin-left: 4px;
+  color: #1c5408;
+  font-size: 12px;
+  margin-bottom: 0px;
+}
+
+.editControl {
+  border-radius: 4px;
+  border-color: silver;
+  font-size: 12px;
+  margin: 5px;
+  padding: 5px;
+  width: 150px;
+}
+
+.editDescription {
+  width: 270px;
+}
+
+.button {
+  width: 75px;
+  background-color: #54983c;
+  border-radius: 4px;
+  border: 1px;
+  color: white;
+  padding: 6px;
+  margin-top: 15px;
+  transition: 0.2s;
+}
+
+.button:active {
+  transform: scale(0.9);
+}
+
+.radioOption {
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.buttons {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.buttonLink {
+  margin-left: 15px;
+  cursor: pointer;
+  color: maroon;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.radioOption {
+  margin-top: 3px;
+}

@@ -1,0 +1,43 @@
+.container {
+  width: 500px;
+  background-color: #facaca;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.header {
+  color: white;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.rowLabel {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.clearFilter {
+  margin-top: 45px;
+  margin-left: 10px;
+  color: red;
+  cursor: pointer;
+}
+
+.radioLabel {
+  cursor: pointer;
+}
+
+.editControl {
+  border-radius: 3px;
+  margin-left: 3px;
+  font-family: Arial;
+}

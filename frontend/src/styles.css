@@ -1,0 +1,28 @@
+.App {
+  margin: 0 auto;
+  width: 100%;
+  font-family: sans-serif;
+  max-width: 750px;
+}
+
+.mainList {
+  margin-top: 40px;
+}
+
+.logo {
+  height: 40px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.buttonLink {
+  margin-left: 15px;
+  cursor: pointer;
+  color: maroon;
+  margin-top: 20px;
+  font-size: 14px;
+}
